@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design the layout(Exercise 5)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: aquamarine;
+            padding: 23px;
+            top: 0;
+            position: sticky;
+        }
+
+        ul li {
+            display: inline;
+            padding: 23px;
+            font-weight: bold;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        .boxes {
+            margin: 200px;
+            padding: 20px;
+        }
+
+        .box {
+            margin: 10px;
+            border: 2px solid black;
+        }
+
+        .box1 {
+            background-color: rgb(10, 159, 246);
+            padding: 200px;
+
+        }
+
+        .box2 {
+            background-color: rgb(241, 186, 65);
+            padding: 200px;
+        }
+
+        .circle {
+            margin: 10px;
+            padding: 20px;
+        }
+
+        main div svg {
+            position: fixed;
+            padding-left: 88vw;
+        }
+
+        .welcome {
+            padding: 23px;
+            margin: 20px;
+            height: 200px;
+            border: 2px solid red;
+        }
+
+        footer{
+            background-color: aquamarine;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="boxes">
+            <span class="box box1"></span>
+            <span class="box box2"></span>
+        </div>
+
+        <div class="circle">
+            <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="orange" />
+            </svg>
+        </div>
+
+        <div class="welcome">
+            Welcome to this Sigma Web Development Express
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam quas quae quo. Nihil repellendus corporis harum, rerum, accusamus sit quibusdam facere sunt, consequatur quam voluptate aperiam ducimus aspernatur. Excepturi, sed voluptatem.</p>
+        </div>
+    </main>
+
+    <footer>
+        Thanks for visiting the site.
+    </footer>
+</body>
+
+</html>
