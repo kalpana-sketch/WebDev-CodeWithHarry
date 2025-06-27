@@ -13,7 +13,14 @@
             position: absolute;
             bottom: 0;
             left: 0;
-            animation: animateX 3s linear infinite, animateY 1s ease-out infinite alternate;
+            animation: animateX 5s linear 2s infinite, animateY 1s ease-out 2s infinite alternate;
+        }
+
+        .box img{
+            height: 121px;
+            width: 121px;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
         .container{
@@ -44,7 +51,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="box"></div>
+        <div class="box">
+            <img src="hariompal.jpg" alt="">
+        </div>
     </div>
 </body>
 </html>
